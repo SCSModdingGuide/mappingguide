@@ -2,7 +2,7 @@
 
 # Contents
 
-## Tutorials
+### Tutorials
 - [Basic Editor Setup](tutorials/0-setup.md)
 
 # Sharing and Contributing
