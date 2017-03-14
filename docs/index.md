@@ -13,6 +13,6 @@ The contents of this guide are licensed under the [CC BY-SA 4.0](https://creativ
 Outside contributions will be paramount. If you're experienced with the ETS2/ATS map editors, you're assistance in creating these guides would be greatly welcomed! You should contribute in one of the following ways
 
 ### Errors & Corrections
-If you spot typos or factual errors in these guides, but don't plan on making large contributions, please create an entry in the [Issues](user/repo/issues) tab of the Github repo.
+If you spot typos or factual errors in these guides, but don't plan on making large contributions, please create an entry in the [Issues tab](/../../issues) of the Github repo.
 
 ### Pull Requests
