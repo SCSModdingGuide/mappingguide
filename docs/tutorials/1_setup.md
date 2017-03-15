@@ -1,6 +1,8 @@
-# Tutorial 1 -- Basic Editor Setup
+# Tutorial 1 --- Basic Editor Setup
 
-## 0 -- Game Folders
+This tutorial will help you set up your game correctly for using the map editor.
+
+### Game Folders
 
 This guide will refer to two folders used by ETS2/ATS. We'll be calling them the **user** folder and the **executable** folder.
 
@@ -20,7 +22,7 @@ C:\Program Files (x86)\Steam\steamapps\common\American Truck Simulator
 
 For the sake of brevity, only the paths for Euro Truck Simulator 2 will be repeated in this guide. All instructions are equivalent for both games.
 
-## 1 -- Enabling the Editor
+## 1. Enabling the Editor
 
 Navigate to your user folder -- ```C:\Users\<username>\Documents\Euro Truck Simulator 2``` by default -- and open ```config.txt``` in a text editor.
 
@@ -28,7 +30,7 @@ Find the line ```g_developer "0"``` and change the value to ```"2"```. Then find
 
 Next time you launch the game, you'll be able to load the editor using the console command ```edit```. Before you do this however, you should make one more change to enable saving of maps.
 
-## 2 -- Enabling Saves
+## 2. Enabling Saves
 
 The editor saves maps to a directory in the _executable_ folder, however this folder does not exist by default, and the editor produces an error rather than saving.
 

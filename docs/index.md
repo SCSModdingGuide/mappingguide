@@ -6,7 +6,7 @@ This guide hopes to be a comprehensive and openly editable collection of resourc
 
 ### Tutorials
 1. [Basic Editor Setup](tutorials/1_setup.md)
-2. Creating your first worldspace
+2. [Creating your first Worldspace](tutorials/2_firstmap.md)
 3. Getting In-Game
 
 # Sharing and Contributing
