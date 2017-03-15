@@ -1,13 +1,16 @@
-# Tutorial 2 --- Creating your first Worldspace
+# Tutorial 2 --- Creating a basic map
 
-This tutorial will teach you how to use the editor to create a simple worldspace. This tutorial currently uses ETS2 road types and prefabs. Please contribute to the guide with an ATS version.
+This tutorial will introduce you to the basics of road placement in the map editor, and guide you through the creation of a small city block. This tutorial currently uses ETS2 road types and prefabs. Please contribute to the guide with an ATS version if you are able.
 
 1. [Open the editor](#section1)
 2. [Draw a road](#section2)
 3. [Change the road properties](#section3)
 4. [Extending the road](#section4)
 5. [Road adjustment basics](#section5)
-6.
+6. [Prefabs](#section6)
+7. [City Roads](#section7)
+8. [Expanding the city](#section8)
+9. [Finishing the map](#section9)
 
 ## 1. Open the Editor <a name="section1"></a>
 
@@ -16,16 +19,6 @@ Once you've followed the instructions in [Tutorial 1](1_setup.md), you can now l
 The developer console should appear. To open the editor, type ```edit``` and press enter. After a few seconds the editor window should appear, with a car model on the screen. Press _tilde_ again to close the developer console.
 
 ![The editor window](img/2_editor.png)
-
-### Troubleshooting
-
-Click the arrows to view solutions to the following common issues.
-
-<details>
-<summary>My editor screen is nothing but red!</summary>
-<p>Press the A key until the car reappears on a black background.</p>
-<img src="img/2_editorred.png" alt="missing map underlay"/>
-</details>
 
 ## 2. Draw a road <a name="section2"></a>
 
@@ -116,7 +109,7 @@ Your turn should now be a lot neater. You should open the second node in _Item_ 
 
 ![Adjusted road](img/2_roadneat.jpg)
 
-## 6. Prefabs
+## 6. Prefabs <a name="section6"></a>
 
 At the top of this current road, we'll begin creating our city block. City roads are a different type of road, so we'll use transition piece to connect the two. Interchanges, roundabouts and transition pieces are all _prefab_ type objects in the SCS software engine.
 
@@ -128,7 +121,7 @@ You can add grass sides to this prefab now if you wish. As with the road, open t
 
 ![Placed and connected prefab](img/2_prefabplaced.jpg)
 
-## 7. City roads
+## 7. City roads <a name="section7"></a>
 
 City roads are similar to regular roads, except they have sidewalks on which pedestrians may appear. To create a city road, change the item type at the top of the editor back to _road_, then press the New Item button again.
 
@@ -140,10 +133,56 @@ The same road type should still be selected. Change the Type radio button to _Ci
 
 You may have noticed that roads have an inherent direction, even though they are usually 2-way roads. The road you placed has two nodes. A red _rear_ node, and a greed _forward_ node.
 
-The connections we can create
+The connections we can create are limited by these node directions. Principally, nodes should be connected from forward to rear nodes, that is red and green nodes connect, nodes of the same color do not usually connect.
 
-| Node 1 | Node 2 | Valid?|
-| --- | --- | --- |
+| Node 1 | Node 2 | Valid Connection?|
+| :---: | :---: | --- |
 | Red | Green | Yes |
 | Red | Red | No, never connects |
-| Green | Green | Yes, when necessary |
+| Green | Green | Only when necessary |
+
+#### I can't connect this! <a name="section7c"></a>
+
+We'll cover this in more detail in a later tutorial, but occasionally you'll come across an intersection that you can't seem to connect, due to which node the prefab chooses as the rear node. Delete the intersection and return to the new item dialog. Use the _Origin_ dropdown box to change which node is the rear node.
+
+![New road dialog](img/2_addprefab.png)
+
+### Configuring your city road
+
+Ensure your road has the correct direction, with the green node at the south, then connect it to the prefab. Set the position of the rear node to ```0,  10,  -200```, so that it remains straight.
+
+![City road placed](img/2_road2added.jpg)
+
+open the road segment in item properties mode. We need to set the sidewalk texture to match the prefabs texture, get rid of the outer crash barrier, and we can also get rid of the terrain within the city bounds. Your city road segment should have properties like the following image.
+
+![City road settings](img/2_roadpropertiesd.png)
+
+## 8. Expand the city <a name="section8"></a>
+
+Your map should currently look like this.
+
+![Current state of map](img/2_current.jpg)
+
+Use city roads and prefabs to expand this map to something like the following:
+
+![Current state of map](img/2_result.jpg)
+
+We've covered the basics for road placement, and the rest of this city follows the same processes. Here are some hints to get you started.
+
+- The roundabout used is ```r2xr2xr1 sw roundabout```
+- The central roads are 2-lane roads. You'll need to use the road type ```Road 1 lane broken``` for these segments.
+- To find a suitable T-junction prefab:
+  * Search for ```road2 road1 t``` in the content browser. These are the two road types that you are connecting.
+  * Ensure your chosen prefab has one road1 connection and two road2 connections.
+  * Remember to choose one with an 8m sidewalk --- not _4m_ --- on _all_ sides.
+- The cross junction can be found in a similar manner, this one uses road1 type roads only, so the name will include ```road1 x road1```.
+
+# 9. Finishing the map
+
+Once you've created your square, you've completed this tutorial and are ready to save and test your map.
+
+Firstly, ensure the start car is placed in a sensible location. select the _Place Start_ mode button, then click to place the car model in a sensible location. Then, go to ```File > Save As``` and save your map. I have called mine ```TestMap.mbd```.
+
+Proceed to the next tutorial to learn how to test the map, as well as how to load and continue editing it.
+
+![](img/2_resultb.jpg)
