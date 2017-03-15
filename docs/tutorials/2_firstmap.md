@@ -22,7 +22,7 @@ Click the arrows to view solutions to the following common issues.
 
 ## 2. Drawing a road
 
-Look on the top bar of the editor. Ensure the 'Item type' is set to road, then press the 'New Item' button. A new window will appear.
+Look on the top bar of the editor. Ensure the 'Item type' is set to road, then press the _New Item_ button. A new window will appear.
 
 ![New Item button](img/2_add.png)
 
@@ -41,3 +41,17 @@ Once you've selected the road type, go back to the main editor window. Click abo
 ![New Item button](img/2_roadadded.png)
 
 ## 3. Road Properties
+
+Return to the top bar of the editor and select the _Properties_ button. Then, double-click the red road node that we placed.
+
+![New Item button](img/2_properties.png)
+
+A new and slightly frightening window will appear. This window lists all of the properties for the road segment we just selected. Despite the huge number of boxes on this window, it is straightforward to understand with a little familiarisation.
+
+![New Item button](img/2_roadproperties.png)
+
+The dialog is split into options for the left and right terrain of the road, as well as the central reservation. Later we'll also look at the main road properties found at the top-left and top-right of the window.
+
+The road currently looks a little barren. Have a play around with the various properties highlighted above and see what each one does. Then, copy the properties listed below to get a typical setting.
+
+![New Item button](img/2_roadpropertiesb.png)

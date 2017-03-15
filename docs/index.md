@@ -19,7 +19,7 @@ The contents of this guide are licensed under the [CC BY-SA 4.0](https://creativ
 Attribution is a requirement of the license, a link back to the [github repo](https://github.com/SCSModdingGuide/mappingguide) will suffice.
 
 ## Contributing
-Outside contributions will be paramount. If you're experienced with the ETS2/ATS map editors, you're assistance in creating these guides would be greatly welcomed! You should contribute in one of the following ways
+Outside contributions will be paramount to making this guide comprehensive. If you're experienced with the ETS2/ATS map editors, your assistance in creating these guides would be greatly welcomed! You should contribute in one of the following ways
 
 ### Errors & Corrections
 If you spot typos or factual errors in these guides, but don't plan on making large contributions, please create an entry in the [Issues tab](https://github.com/SCSModdingGuide/mappingguide/issues) of the Github repo.
