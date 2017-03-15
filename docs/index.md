@@ -46,4 +46,4 @@ Don't Panic! the guides are written in easily editable [markdown](https://github
 - Make your additions to the guide, and commit them.
 - Make a pull request to have your committed additions accepted
 
-If you're working on contributions, but need some help using Github Desktop, contact @SecretImbecile for assistance.
+If you're working on contributions, but need some help using Github Desktop, contact [SecretImbecile](https://github.com/SecretImbecile) for assistance.
