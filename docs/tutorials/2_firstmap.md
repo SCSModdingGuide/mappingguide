@@ -12,7 +12,8 @@ This tutorial will introduce you to the basics of road placement in the map edit
 8. [Expanding the city](#section8)
 9. [Finishing the map](#section9)
 
-## 1. Open the Editor <a name="section1"></a>
+<a name="section1"></a>
+## 1. Open the Editor
 
 Once you've followed the instructions in [Tutorial 1](1_setup.md), you can now launch your game. Once you've passed the opening logos and reached the 'launchpad' screen, you can open your terminal, using the _tilde_ key. (¬, found under the Esc key)
 
@@ -20,7 +21,8 @@ The developer console should appear. To open the editor, type ```edit``` and pre
 
 ![The editor window](img/2_editor.png)
 
-## 2. Draw a road <a name="section2"></a>
+<a name="section2"></a>
+## 2. Draw a road
 
 Look on the top bar of the editor. Ensure the 'Item type' is set to road, then press the _New Item_ button. A new window will appear.
 
@@ -40,7 +42,8 @@ Once you've selected the road type, go back to the main editor window. Click abo
 
 ![Single road segment](img/2_roadadded.jpg)
 
-## 3. Change the road properties <a name="section3"></a>
+<a name="section3"></a>
+## 3. Change the road properties
 
 Return to the top bar of the editor and select the _Item Properties_ button. Then, double-click the red road node that we placed.
 
@@ -66,7 +69,8 @@ Back in the editor window, press the C key to switch to the flying camera. Your 
 
 ![The resulting road](img/2_roadset.jpg)
 
-## 4. Extending the Road <a name="section4"></a>
+<a name="section4"></a>
+## 4. Extending the Road
 
 This road will lead away from what will become a small city block. We'll extend this road to turn to the west, becoming the end point of this map.
 
@@ -74,7 +78,8 @@ Return to the add item mode, ensuring the item type is still road. Click on the 
 
 ![Additional road nodes](img/2_roadextended.jpg)
 
-## 5. Road adjustment basics <a name="section5"></a>
+<a name="section5"></a>
+## 5. Road adjustment basics
 
 ### Moving the road
 
@@ -109,7 +114,8 @@ Your turn should now be a lot neater. You should open the second node in _Item_ 
 
 ![Adjusted road](img/2_roadneat.jpg)
 
-## 6. Prefabs <a name="section6"></a>
+<a name="section6"></a>
+## 6. Prefabs
 
 At the top of this current road, we'll begin creating our city block. City roads are a different type of road, so we'll use transition piece to connect the two. Interchanges, roundabouts and transition pieces are all _prefab_ type objects in the SCS software engine.
 
@@ -121,8 +127,8 @@ You can add grass sides to this prefab now if you wish. As with the road, open t
 
 ![Placed and connected prefab](img/2_prefabplaced.jpg)
 
-## 7. City roads <a name="section7"></a>
-
+<a name="section7"></a>
+## 7. City roads
 City roads are similar to regular roads, except they have sidewalks on which pedestrians may appear. To create a city road, change the item type at the top of the editor back to _road_, then press the New Item button again.
 
 The same road type should still be selected. Change the Type radio button to _City road_, then place another road above the prefab.
@@ -141,7 +147,8 @@ The connections we can create are limited by these node directions. Principally,
 | Red | Red | No, never connects |
 | Green | Green | Only when necessary |
 
-#### I can't connect this! <a name="section7c"></a>
+<a name="section7c"></a>
+#### I can't connect this!
 
 We'll cover this in more detail in a later tutorial, but occasionally you'll come across an intersection that you can't seem to connect, due to which node the prefab chooses as the rear node. Delete the intersection and return to the new item dialog. Use the _Origin_ dropdown box to change which node is the rear node.
 
@@ -157,7 +164,8 @@ open the road segment in item properties mode. We need to set the sidewalk textu
 
 ![City road settings](img/2_roadpropertiesd.png)
 
-## 8. Expand the city <a name="section8"></a>
+<a name="section8"></a>
+## 8. Expand the city
 
 Your map should currently look like this.
 
@@ -178,7 +186,8 @@ We've covered the basics for road placement, and the rest of this city follows t
 - The cross junction can be found in a similar manner, this one uses road1 type roads only, so the name will include ```road1 x road1```.
 - If you run into trouble connecting prefabs, check [Step 7](#section7c), to ensure your prefab origins are correct.
 
-# 9. Finishing the map <a name="section8"></a>
+<a name="section7"></a>
+# 9. Finishing the map
 
 Once you've created your square, you've completed this tutorial and are ready to save and test your map.
 
