@@ -1,22 +1,34 @@
 # Introduction
 
-This guide hopes to be a comprehensive and openly editable collection of resources for the SCS software map editor, used by _Euro Truck Simulator 2_ and _American Truck Simulator_.
+This guide hopes to be a comprehensive and openly editable collection of resources for the SCS game engine editor, used by _Euro Truck Simulator 2_ and _American Truck Simulator_.
 
 # Contents
 
-### Tutorials
+## Tutorials
+
+[Introduction guide to the Tutorials](tutorials/0_tutorialguide.md)
+
 1. [Basic Editor Setup](tutorials/1_setup.md)
 2. [Creating a basic map](tutorials/2_firstmap.md)
-3. Getting In-Game
+3. [Loading and testing your map](tutorials/3_testing.md)
+
+proposed:
+
+4. Models and Buildings
+5. Creating cities and workplaces
+6. Adding to the Europe module
+7. Advanced decoration tips
+
+Would you like to write an article---including or in addition to those proposed above? see below.
 
 # Sharing and Contributing
 
 ## License
-There's been a number of resources written for the SCS software editor, but it's been difficult to build upon these efforts due to their lack of license.
+There's been a number of resources written for the SCS game engine map editor, but it's been difficult to build upon these efforts due to their lack of license.
 
-The contents of this guide are licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license, meaning **you're encouraged to repost the contents of this guide _without_ seeking permission**. This includes posting guides back to the official SCS software [modding wiki](http://modding.scssoft.com/wiki/Main_Page). (hint hint)
+The contents of this guide are permissively licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license, meaning **you're encouraged to repost the contents of this guide _without_ seeking permission**. This includes posting completed guides back to the official SCS software [modding wiki](http://modding.scssoft.com/wiki/Main_Page). (hint hint)
 
-Attribution is a requirement of the license, a link back to the [github repo](https://github.com/SCSModdingGuide/mappingguide) will suffice.
+**Attribution** is a requirement of the license wherever you redistribute or modify the guide, a link back to the [github repo](https://github.com/SCSModdingGuide/mappingguide) will suffice.
 
 ## Contributing
 Outside contributions will be paramount to making this guide comprehensive. If you're experienced with the ETS2/ATS map editors, your assistance in creating these guides would be greatly welcomed! You should contribute in one of the following ways
@@ -24,4 +36,14 @@ Outside contributions will be paramount to making this guide comprehensive. If y
 ### Errors & Corrections
 If you spot typos or factual errors in these guides, but don't plan on making large contributions, please create an entry in the [Issues tab](https://github.com/SCSModdingGuide/mappingguide/issues) of the Github repo.
 
-### Pull Requests
+### Content Contribution
+
+If you wish to write a large contribution to the guide, you'll need to make a pull request to the Git Repo.
+
+Don't Panic! the guides are written in easily editable [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) text files. Just grab a copy of [Github Desktop](https://desktop.github.com/) and follow [This guide](https://help.github.com/desktop/guides/contributing/) to contributing to Git repos. In brief, you need to:
+
+- Clone the [Git repo](https://github.com/SCSModdingGuide/mappingguide)
+- Make your additions to the guide, and commit them.
+- Make a pull request to have your committed additions accepted
+
+If you're working on contributions, but need some help using Github Desktop, contact @SecretImbecile for assistance.

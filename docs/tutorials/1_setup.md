@@ -2,26 +2,6 @@
 
 This tutorial will help you set up your game correctly for using the map editor.
 
-### Game Folders
-
-This guide will refer to two folders used by ETS2/ATS. We'll be calling them the **user** folder and the **executable** folder.
-
-The _user_ folder is the game folder located in the _Documents_ directory on Windows platforms. This folder contains the _mod_ folder, where we'll place our created maps.
-
-```
-C:\Users\<username>\Documents\Euro Truck Simulator 2
-C:\Users\<username>\Documents\American Truck Simulator
-```
-
-The _executable_ folder is the game's main folder, which in it contains the game files and executables. Maps we create will be saved in a subfolder here
-
-```
-C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2
-C:\Program Files (x86)\Steam\steamapps\common\American Truck Simulator
-```
-
-For the sake of brevity, only the paths for Euro Truck Simulator 2 will be repeated in this guide. All instructions are equivalent for both games.
-
 ## 1. Enabling the Editor
 
 Navigate to your user folder -- ```C:\Users\<username>\Documents\Euro Truck Simulator 2``` by default -- and open ```config.txt``` in a text editor.
@@ -43,3 +23,5 @@ That's it! you're ready to start mapping.
 The process for loading maps is somewhat laborious, as the editor can only use game files that are currently loaded by the game.
 
 You should complete the next tutorial in a single sitting if possible, but if you need to load your saved process for any reason, skip to tutorial 3, where the process of loading your maps into the game is detailed.
+
+[<- Tutorial guide](0_tutorialguide.md) --- [ Tutorial 2 - Creating a basic map ->](2_firstmap.md)

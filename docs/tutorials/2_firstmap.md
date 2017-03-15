@@ -1,6 +1,8 @@
+**This tutorial currently uses ETS2 road types and prefabs. Please contribute to the guide with an ATS version if you are able.**
+
 # Tutorial 2 --- Creating a basic map
 
-This tutorial will introduce you to the basics of road placement in the map editor, and guide you through the creation of a small city block. This tutorial currently uses ETS2 road types and prefabs. Please contribute to the guide with an ATS version if you are able.
+This tutorial will introduce you to the basics of road placement in the map editor, and guide you through the creation of a small city block.
 
 1. [Open the editor](#section1)
 2. [Draw a road](#section2)
@@ -117,7 +119,7 @@ Your turn should now be a lot neater. You should open the second node in _Item_ 
 <a name="section6"></a>
 ## 6. Prefabs
 
-At the top of this current road, we'll begin creating our city block. City roads are a different type of road, so we'll use transition piece to connect the two. Interchanges, roundabouts and transition pieces are all _prefab_ type objects in the SCS software engine.
+At the top of this current road, we'll begin creating our city block. City roads are a different type of road, so we'll use transition piece to connect the two. Interchanges, roundabouts and transition pieces are all _prefab_ type objects in the SCS game engine.
 
 Open the content browser (shortcut F2) and change the _type_ in the top-left box to prefab. Then, search for the ```road sidewalk end``` prefab. Ensure you've found the correct one, and not a ```4m``` or ```uk``` variant. Double-click on the thumbnail to begin placing the prefab.
 
@@ -135,6 +137,7 @@ The same road type should still be selected. Change the Type radio button to _Ci
 
 ![New road dialog](img/2_addroadb.png)
 
+<a name="section7b"></a>
 ### Road direction
 
 You may have noticed that roads have an inherent direction, even though they are usually 2-way roads. The road you placed has two nodes. A red _rear_ node, and a greed _forward_ node.
@@ -147,7 +150,6 @@ The connections we can create are limited by these node directions. Principally,
 | Red | Red | No, never connects |
 | Green | Green | Only when necessary |
 
-<a name="section7c"></a>
 #### I can't connect this!
 
 We'll cover this in more detail in a later tutorial, but occasionally you'll come across an intersection that you can't seem to connect, due to which node the prefab chooses as the rear node. Delete the intersection and return to the new item dialog. Use the _Origin_ dropdown box to change which node is the rear node.
@@ -184,7 +186,7 @@ We've covered the basics for road placement, and the rest of this city follows t
   * Ensure your chosen prefab has one road1 connection and two road2 connections.
   * Remember to choose one with an 8m sidewalk --- not _4m_ --- on _all_ sides.
 - The cross junction can be found in a similar manner, this one uses road1 type roads only, so the name will include ```road1 x road1```.
-- If you run into trouble connecting prefabs, check [Step 7](#section7c), to ensure your prefab origins are correct.
+- If you run into trouble connecting prefabs, check [Step 7](#section7b), to ensure your prefab origins are correct.
 
 <a name="section7"></a>
 # 9. Finishing the map
@@ -196,3 +198,5 @@ Firstly, ensure the start car is placed in a sensible location. select the _Plac
 Proceed to the next tutorial to learn how to test the map, as well as how to load and continue editing it.
 
 ![](img/2_resultb.jpg)
+
+[<- Tutorial 1 - Basic Editor Setup](1_setup.md) --- [Tutorial 3 - Loading and testing your map ->](3_testing.md)
