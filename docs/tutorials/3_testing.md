@@ -6,6 +6,7 @@ This tutorial briefly covers the process of packing your maps to be tested or lo
 2. [Mod description files](#section2)
 3. [Creating the .scs Archive](#section3)
 4. [Loading the map](#section4)
+5. [When do I need to update the archive?](#section5)
 
 <a name="section1"></a>
 ## 1. Setting up archive files
@@ -105,7 +106,8 @@ Launch the game again. You do _not_ need to enable the mod in the launchpad mod 
 
 ![in-game](img/3_ingame.jpg)
 
-## 5. When do I need to archive?
+<a name="section5"></a>
+## 5. When do I need to update the archive?
 
 Unlike most programs, the SCS game engine editor can't load what you've just saved. This is because the editor can only load the files currently loaded by the game, that being the game's base files, as well as any loaded mods.
 
