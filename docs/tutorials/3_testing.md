@@ -5,6 +5,7 @@ This tutorial briefly covers the process of packing your maps to be tested or lo
 1. [Setting up archive files](#section1)
 2. [Mod description files](#section2)
 3. [Creating the .scs Archive](#section3)
+4. [Loading the map](#section4)
 
 <a name="section1"></a>
 ## 1. Setting up archive files
@@ -93,12 +94,21 @@ Ensure you have returned to the archivemap folder, then **Create** a zip archive
 
 ![7zip interface](img/3_7zip.png)
 
-Once you have produced the .scs archive, you need to move it to your user folder -- by default located at ```C:\Users\<username>\Documents\Euro Truck Simulator 2```. Inside this folder, there should be a folder named ```mod```, so create one if it isn't there already. place the .scs archive inside the mod folder, then relaunch the game.
+Once you have produced the .scs archive, you need to **move** it to your user folder -- by default located at ```C:\Users\<username>\Documents\Euro Truck Simulator 2```. Inside this folder, there should be a folder named ```mod```, so create one if it isn't there already. place the .scs archive inside the mod folder.
 
-launch the editor again, this time placing the map name in the command too, such as ```edit TestMap```. Ensure the capitalisation is the same as the editor filename. Your map should now load back into the editor, and you can press the _Run Map_ button to test the map.
+<a name="section4"></a>
+## 4. Loading the map
+
+Launch the game again. You do _not_ need to enable the mod in the launchpad mod manager, the editor will read _everything_ in the mod folder. **Open** the editor, this time placing the map name in the command too, i.e. ```edit TestMap```. Ensure the capitalisation is the same as the editor filename. Your map should now load back into the editor, and you can press the _Run Map_ button to test the map.
 
 **hint:** On the writer's machine, the loading screen does not appear immediately. ALT+TAB out and back in and the game should load nearly instantly.
 
 ![in-game](img/3_ingame.jpg)
+
+## 5. When do I need to archive?
+
+Unlike most programs, the SCS game engine editor can't load what you've just saved. This is because the editor can only load the files currently loaded by the game, that being the game's base files, as well as any loaded mods.
+
+This means that **each time** you wish to load a map to continue work on it, you must update the archive with the latest version of the map found in the executable base/map folder. The same applies for testing the maps, even if you have a modified version of the map current open in your editor, it will revert to the archive version when you run the map to test.
 
 [<- Tutorial 2 - Creating a basic map](2_firstmap.md)
