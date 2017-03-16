@@ -101,4 +101,4 @@ launch the editor again, this time placing the map name in the command too, such
 
 ![in-game](img/3_ingame.jpg)
 
-[<- Tutorial 2 - Creating a basic map](1_setup.md)
+[<- Tutorial 2 - Creating a basic map](2_firstmap.md)
