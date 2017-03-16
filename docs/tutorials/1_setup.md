@@ -4,7 +4,7 @@ This tutorial will help you set up your game correctly for using the map editor.
 
 ## 1. Enabling the Editor
 
-Navigate to your user folder -- ```C:\Users\<username>\Documents\Euro Truck Simulator 2``` by default -- and open ```config.txt``` in a text editor.
+Navigate to your user folder -- ```C:\Users\<username>\Documents\Euro Truck Simulator 2``` by default -- and open ```config.cfg``` in a text editor.
 
 Find the line ```g_developer "0"``` and change the value to ```"2"```. Then find ```g_console "0"``` and change the value to ```"1"```.
 
