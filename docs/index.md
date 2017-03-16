@@ -25,7 +25,6 @@ This guide hopes to be a comprehensive and openly editable collection of resourc
 
 4. Adding to the Europe module
 
-
 Would you like to write an article---including or in addition to those proposed above? see below.
 
 # Sharing and Contributing
