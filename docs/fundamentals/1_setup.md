@@ -24,4 +24,4 @@ The process for loading maps is somewhat laborious, as the editor can only use g
 
 You should complete the next tutorial in a single sitting if possible, but if you need to load your saved process for any reason, skip to tutorial 3, where the process of loading your maps into the game is detailed.
 
-[<- Tutorial guide](0_tutorialguide.md) --- [ Tutorial 2 - Creating a basic map ->](2_firstmap.md)
+[ Tutorial 2 - Creating a basic map ->](2_firstmap.md)
