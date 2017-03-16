@@ -85,7 +85,7 @@ Return to the add item mode, ensuring the item type is still road. Click on the 
 
 ### Moving the road
 
-There are two editor modes for moving placed objects and nodes. The _Move Item_ mode will allow you to click and drag placed node, whereas the _Node Properties_ mode will allow us to set specific positions and change the bend angles.
+There are two editor modes for moving placed objects and nodes. The _Move Item_ mode will allow you to click and drag a placed node, whereas the _Node Properties_ mode will allow us to set specific positions and change the bend angles.
 
 ![Move Item mode button](img/2_move.png) ![Node Properties mode button](img/2_node.png)
 

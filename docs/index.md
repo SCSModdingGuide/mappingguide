@@ -6,18 +6,25 @@ This guide hopes to be a comprehensive and openly editable collection of resourc
 
 ## Tutorials
 
-[Introduction guide to the Tutorials](tutorials/0_tutorialguide.md)
+[Introduction guide to the Tutorials](tutorialguide.md)
 
-1. [Basic Editor Setup](tutorials/1_setup.md)
-2. [Creating a basic map](tutorials/2_firstmap.md)
-3. [Loading and testing your map](tutorials/3_testing.md)
+### Fundamentals
 
-proposed:
+1. [Basic Editor Setup](fundamentals/1_setup.md)
+2. [Creating a basic map](fundamentals/2_firstmap.md)
+3. [Loading and testing your map](fundamentals/3_testing.md)
+4. Creating cities and workplaces
 
-4. Models and Buildings
-5. Creating cities and workplaces
-6. Adding to the Europe module
-7. Advanced decoration tips
+### Decoration
+
+2. Models and Buildings
+2. Decorating Cities
+3. Advanced decoration for rural areas
+
+### Advanced Tutorials
+
+4. Adding to the Europe module
+
 
 Would you like to write an article---including or in addition to those proposed above? see below.
 
