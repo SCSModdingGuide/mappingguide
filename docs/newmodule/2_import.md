@@ -8,7 +8,9 @@ This part will describe how to take a map image and import it into the SCS Edito
 
 ## 1. Image size & format
 
-The editor background image needs to be a DDS format image with width and heights that are both divisible by 4. Because our image is square, we'll use the game texture convention of using square numbers. (i.e. 512, 1024, 2048, 4096)
+The editor background image needs to be a DDS format image with width and heights that are both divisible by 4.
+
+Because our image is square, we'll use the game texture convention of using square numbers. (i.e. 512, 1024, 2048, 4096) Whilst images of 8192x8192 should work, I have experienced issues loading such large images in the editor, so you should use a 4096x4096 image to begin with before trying a larger image.
 
 A DDS format plugin for Adobe Photoshop can be downloaded from the [NVIDIA developer site](https://developer.nvidia.com/nvidia-texture-tools-adobe-photoshop), and for free software both [Paint.NET](http://www.getpaint.net/index.html) and the [GNU Image Manipulation Program](https://www.gimp.org/) have built-in support for DDS.
 
@@ -19,4 +21,4 @@ Ensure that that the exported DDS file fits the dimension requirements, and is e
 
 You should now have a compatible image. You can copy our version from the GitHub repo [here](#).
 
-## 2. 
+## 2.
