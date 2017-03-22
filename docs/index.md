@@ -24,10 +24,7 @@ This guide hopes to be a comprehensive and openly editable collection of resourc
 ### Advanced Tutorials
 
 1. Editor backgrounds for custom modules [(Part 1)](newmodule/1_imagery.md) (Part 2)
-
-#### Extending Modules
-
-4. Adding to the Europe module
+2. Adding to the Europe module
 
 Would you like to write an article---including or in addition to those proposed above? see below.
 
