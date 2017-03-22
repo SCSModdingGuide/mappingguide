@@ -144,7 +144,7 @@ You may have noticed that roads have an inherent direction, even though they are
 
 The connections we can create are limited by these node directions. Principally, nodes should be connected from forward to rear nodes, that is red and green nodes connect, nodes of the same color do not usually connect.
 
-| Node 1 | Node 2 | Valid Connection?|
+| **Node 1** | **Node 2** | **Valid Connection?** |
 | :---: | :---: | --- |
 | Red | Green | Yes |
 | Red | Red | No, never connects |

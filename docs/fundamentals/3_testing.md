@@ -113,4 +113,4 @@ Unlike most programs, the SCS game engine editor can't load what you've just sav
 
 This means that **each time** you wish to load a map to continue work on it, you must update the archive with the latest version of the map found in the executable base/map folder. The same applies for testing the maps, even if you have a modified version of the map current open in your editor, it will revert to the archive version when you run the map to test.
 
-[<- Tutorial 2 - Creating a basic map](2_firstmap.md)
+[<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Back to Index ->](../index.md)

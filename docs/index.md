@@ -17,11 +17,15 @@ This guide hopes to be a comprehensive and openly editable collection of resourc
 
 ### Decoration
 
-2. Models and Buildings
+1. Models and Buildings
 2. Decorating Cities
 3. Advanced decoration for rural areas
 
 ### Advanced Tutorials
+
+1. Editor backgrounds for custom modules [(Part 1)](#) [(Part 2)](#)
+
+#### Extending Modules
 
 4. Adding to the Europe module
 
