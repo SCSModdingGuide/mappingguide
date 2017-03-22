@@ -4,8 +4,10 @@ This tutorial teaches you how to make a custom editor background, the reference 
 
 This part will describe how to take a map image and import it into the SCS Editor. A technique for getting high-resolution map images can be found in [part 1](1_imagery.md).
 
-1. Image size & format
+1. [Image size & format](#section1)
+2. [Creating the material files](#section2)
 
+<a name="section1"></a>
 ## 1. Image size & format
 
 The editor background image needs to be a DDS format image with width and heights that are both divisible by 4.
@@ -21,4 +23,18 @@ Ensure that that the exported DDS file fits the dimension requirements, and is e
 
 You should now have a compatible image. You can copy our version from the GitHub repo [here](#).
 
-## 2.
+<a name="section2"></a>
+## 2. Creating the material files
+
+Create a new mod folder (the working folder you create the .scs file from) called ```Malta``` and create a ```material\editor``` folder inside it. Paste your map DDS image in this folder. The name in this example is ```Malta.dds```.
+
+as well as the image file itself, we also need:
+
+- A texture information file
+- A Material definition file
+
+### Texture information file
+
+It's not entirely certain why we need the .tobj information file, as they seem to be mostly blank, but we do need it. A program called [tobjEdit](http://www.mediafire.com/?zxlf5ta0ot7h0l1) has been written to create these files.
+
+_Editor's note: tobjEdit originates from [haulinmods.com](http://www.haulinmods.com/), and is currently unsupported. In case this file is lost from its current host, I have mirrored the file [here](https://drive.google.com/open?id=0B1SFjX5JrmNUhpdXU1SG9TRjg)._
