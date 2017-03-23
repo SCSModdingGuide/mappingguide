@@ -15,15 +15,15 @@ This part will describe how to take a map image and import it into the SCS Edito
 ### Software Required
 
 - An image editor with DDS format support.
- - [NVIDIA plugin](https://developer.nvidia.com/nvidia-texture-tools-adobe-photoshop) for Adobe Photoshop
- - [Paint.NET](http://www.getpaint.net/index.html) (shown in tutorial)
- - The [GNU Image Manipulation Program](https://www.gimp.org/)
+  * [NVIDIA plugin](https://developer.nvidia.com/nvidia-texture-tools-adobe-photoshop) for Adobe Photoshop
+  * [Paint.NET](http://www.getpaint.net/index.html) (shown in tutorial)
+  * The [GNU Image Manipulation Program](https://www.gimp.org/)
 - A text editor that is slightly better than Windows' notepad.
- - [Notepad++](https://notepad-plus-plus.org/) is a popular choice.
- - [Atom](https://atom.io/) is used to write this guide, but it's mostly useful for large projects.
+  * [Notepad++](https://notepad-plus-plus.org/) is a popular choice.
+  * [Atom](https://atom.io/) is used to write this guide, but it's mostly useful for large projects.
 - An editor for the ```.tobj``` format
- - [tobjEdit](http://www.mediafire.com/?zxlf5ta0ot7h0l1)* (shown in tutorial)
- - If you use Python, [this script](https://gist.github.com/SecretImbecile/5e630d206db109685842b503903d371b) has been written by the author to create .tobj files.
+  * [tobjEdit](http://www.mediafire.com/?zxlf5ta0ot7h0l1)* (shown in tutorial)
+  * If you use Python, [this script](https://gist.github.com/SecretImbecile/5e630d206db109685842b503903d371b) has been written by the author to create .tobj files.
 - You may need the official [game archive extractor](http://modding.scssoft.com/wiki/Documentation/Tools/Game_Archive_Extractor#Download) to obtain a current version of ```editor_data.sii```
 
 _* Editor's note: tobjEdit originates from [haulinmods.com](http://www.haulinmods.com/), and is currently unsupported. In case this file is lost from its current host, I have mirrored the file [here](https://drive.google.com/open?id=0B1SFjX5JrmNUhpdXU1SG9TRjg)._
