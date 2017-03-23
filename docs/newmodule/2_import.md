@@ -7,9 +7,10 @@ This part will describe how to take a map image and import it into the SCS Edito
 ### Contents
 
 1. [Create an empty map](#section1)
-1. [Image size & format](#section2)
-2. [Creating the material files](#section3)
-3. [Modifying the editor data](#section4)
+2. [Image size & format](#section2)
+3. [Creating the material files](#section3)
+4. [Modifying the editor data](#section4)
+5. [Calculating the correct scale](#section5)
 
 ### Software Required
 
@@ -21,7 +22,7 @@ This part will describe how to take a map image and import it into the SCS Edito
  - [Notepad++](https://notepad-plus-plus.org/) is a popular choice.
  - [Atom](https://atom.io/) is used to write this guide, but it's mostly useful for large projects.
 - An editor for the ```.tobj``` format
- - [tobjEdit](http://www.mediafire.com/?zxlf5ta0ot7h0l1) is largely used by the community.*
+ - [tobjEdit](http://www.mediafire.com/?zxlf5ta0ot7h0l1)* (shown in tutorial)
  - If you use Python, [this script](https://gist.github.com/SecretImbecile/5e630d206db109685842b503903d371b) has been written by the author to create .tobj files.
 - You may need the official [game archive extractor](http://modding.scssoft.com/wiki/Documentation/Tools/Game_Archive_Extractor#Download) to obtain a current version of ```editor_data.sii```
 
@@ -184,6 +185,7 @@ Common errors at this point are usually a case mismatch on filenames (```malta.d
 
 ![Reference image in editor](img/2_unscaled.png)
 
+<a name="section5"></a>
 ## 5. Calculating the correct scale
 
 The ```bcg_size_x``` and ```bcg_size_y``` values are the total size of the map background in _meters_. You may, if you wish, be able to calculate the precise dimensions of your map using a [bearing to distance calculator](http://www.nhc.noaa.gov/gccalc.shtml), but unless you want to work in a correct 1:1 scale, it's probably good enough to just estimate the distance.
@@ -192,13 +194,7 @@ I used the measure tool on Google Maps (right-click) to measure the full width m
 
 ![Measuring in Google Maps](img/2_scaling.png)
 
-Remember that we said we'd be creating our map in 1:5 scale, so our final value will be
-
-```
-40km/5 = 8000m
-```
-
-hence:
+Remember that we said we'd be creating our map in 1:5 scale, so our final value will be ```40km/5 = 8000m```. Hence:
 
 ```
 bcg_map_name[]: "/map/Malta.mbd"
@@ -209,4 +205,8 @@ bcg_offset_x[]: 0
 bcg_offset_y[]: 0
 ```
 
-recompile your mod archive and load the editor again. Use the measure tool mode
+recompile your mod archive and load the editor again. Use the _Ruler_ mode to confirm that the map is the correct scale.
+
+![Scaled background image](img/2_scaled.png)
+
+[<- Editor backgrounds for custom modules (Part 1)](1_imagery.md) --- [Back to Index ->](../index.md)

@@ -85,3 +85,5 @@ It may be helpful to add height data to your overlay image. The easiest way to d
 Right-click the map and place the geometry bounds. Drag to resize the geometry bounds, making sure they're at least as large as printing bounds. Then, simply go to ```Tools > Generate Relief Contours```. Your map contours should now appear, you can then re-export the map bitmap.
 
 ![Map with contours](img/1_contour.png)
+
+[<- Back to Index](../index.md) --- [Editor backgrounds for custom modules (Part 2) ->](1_imagery.md)
