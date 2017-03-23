@@ -1,0 +1,56 @@
+SiiNunit
+{
+editor_data : .edit_data {
+
+	autosave_interval: 15 #minutes
+	autosave_notify_interval: 10 #seconds
+
+	startpos_model: "/vehicle/ai/focus_2009/lod.pmd"
+	startpos_rotate_speed: 16.0
+
+	stamp_count_warning: 40
+	road_length_warning: 330
+
+	free_camera_uplift: 8.5
+	sub_mode_types[]: 1 #terrain_item
+	sub_mode_types[]: 3 #road_item
+	sub_mode_types[]: 4 #prefab_item
+	sub_mode_types[]: 2 #buildings_item"
+	sub_mode_types[]: 5 #model_item"
+	sub_mode_types[]: 36 #sign_item"
+	sub_mode_types[]: 15 #animated_model_item"
+	sub_mode_types[]: 28 #walker_item"
+	sub_mode_types[]: 34 #trigger_item"
+	sub_mode_types[]: 8 #cut_plane_item"
+	sub_mode_types[]: 9 #mover_item"
+	sub_mode_types[]: 12 #city_item"
+	sub_mode_types[]: 11 #no_weather_item"
+	sub_mode_types[]: 13 #hinge_item"
+	sub_mode_types[]: 18 #map_overlay_item"
+	sub_mode_types[]: 21 #sound_item"
+	sub_mode_types[]: 19 #ferry_item"
+	sub_mode_types[]: 23 #camera_point_item"
+	sub_mode_types[]: 38 #traffic_area_item"
+	sub_mode_types[]: 39 #bezier patch"
+	sub_mode_types[]: 42 #map_area_item
+
+	map_import_offset: (-43402, 0, -28089)
+
+	bcg_map_name[]: "/map/europe.mbd"
+	bcg_material[]: "/material/editor/europe.mat"
+	bcg_size_x[]: 207656
+	bcg_size_y[]: 174375
+	bcg_offset_x[]: 10500
+	bcg_offset_y[]: -7090
+
+	bcg_map_name[]: "/map/Malta.mbd"
+	bcg_material[]: "/material/editor/Malta.mat"
+	bcg_size_x[]: 8000
+	bcg_size_y[]: 8000
+	bcg_offset_x[]: 0
+	bcg_offset_y[]: 0
+
+@include "/custom/editor_data.sii"
+
+}
+}
