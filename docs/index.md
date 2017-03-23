@@ -21,7 +21,7 @@ This guide hopes to be a comprehensive and openly editable collection of resourc
 
 ### Advanced Tutorials
 
-1. Editor backgrounds for custom modules [(Part 1)](newmodule/1_imagery.md) (Part 2)
+1. Editor backgrounds for custom modules [(Part 1)](newmodule/1_imagery.md) [(Part 2)](newmodule/2_import.md)
 2. Adding to the Europe module
 
 ### Distributing Maps
