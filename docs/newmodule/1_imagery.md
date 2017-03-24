@@ -86,4 +86,4 @@ Right-click the map and place the geometry bounds. Drag to resize the geometry b
 
 ![Map with contours](img/1_contour.png)
 
-[<- Back to Index](../index.md) --- [Editor backgrounds for custom modules (Part 2) ->](1_imagery.md)
+[<- Back to Index](../index.md) --- [Editor backgrounds for custom modules (Part 2) ->](2_import.md)
